@@ -1,0 +1,74 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "# BL40A2030 Wireless Communication Networks\n",
+    "\n",
+    "## Week 1 - Assignment\n",
+    "\n",
+    "### Author: [Write your name]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Part I: Theory (40%)\n",
+    "\n",
+    "**1. Explain with your own words (1 or 2 paragraphs) the three-layer model presented in the lecture and in [[2]](https://www.ece.rutgers.edu/~marsic/books/CN/book-CN_marsic.pdf).**\n",
+    "\n",
+    "The networking of data can be represented with three layers that are connected to each other. The first layer being the link layer, which purpose is to connect to the other machine. The second layer is network layer, and its purpose is to create a route to the other end, basically it connects the links together to create a route for the information to move through. The third and last layer is end-to-end layer which purpose is to use the information, for example in a phone call the data would be used to create sound. \n",
+    "\n",
+    "**2. Retransmissions via ARQ are important to the system reliability (lower packet error probability) but it has some drawbacks. However, it has some effects in the delay and traffic congestion. Describe with your own words one of the existing trade-offs.** (Hint: If restransmissions are allowed, the packet will stay in *walking* in the network more time).\n",
+    "\n",
+    "Stop and wait ARQ is simple, but it's trade off is that it's slow. It's slow because it sends the complete data packet every time until it receives acknowledgement and it does nothing when waiting for the acknowledgement. \n",
+    "\n",
+    "### Part II: Jupyter NB experiments (60%)\n",
+    "\n",
+    "**3. Analyze a queue system similar to the tutorial considering $\\lambda = 3$ and $\\mu = 4$ for 2000 time periods.** \n",
+    "- Plot a histogram of the queue sizes.\n",
+    "- Compute the ration of idle periods (0 elements in the queue) in relation to all time periods.\n",
+    "\n",
+    "**4. Analyze a queue system similar to the tutorial considering $\\lambda = 4$ and $\\mu = 3$ for 2000 time periods.** \n",
+    "- Plot a histogram of the queue sizes.\n",
+    "- Compute the ration of idle periods (0 elements in the queue) in relation to all time periods.\n",
+    "\n",
+    "**5. Analyze a queue system similar to the tutorial considering $\\lambda = 3$ and $\\mu = 3$ for 2000 time periods.** \n",
+    "- Plot a histogram of the queue sizes.\n",
+    "- Compute the ration of idle periods (0 elements in the queue) in relation to all time periods."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
